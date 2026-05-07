@@ -46,7 +46,7 @@ This project bridges the gap between raw database storage and actionable busines
    mysql -u root -p < mysql_queries.sql
 2. **Clone Repository**
    '''bash
-   git clone [https://github.com/deepak-kai/sakila_demand_forecasting_model.git](https://github.com/yourusername/predictive-inventory-analytics.git)
+   git clone [https://github.com/deepak-kai/sakila_demand_forecasting_model.git](https://github.com/Deepak-kai/Sakila_Demand_Forecasting_Model.git)
 cd predictive-inventory-analytics
 3.**Environment setup**
    '''bash
