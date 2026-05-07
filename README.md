@@ -29,9 +29,32 @@ This project bridges the gap between raw database storage and actionable busines
 
 ### Prerequisites
 * Python 3.8+
-* MySQL Server (with the Sakila sample database installed)
+* MySQL Server (with the [Sakila sample database](https://dev.mysql.com/doc/sakila/en/) installed)
 
 ### Installation Steps
-1.Install Mysql(full) with Sakila database
-2.copy paste code in Mysql queries.sql and run the file
-3.install vscode(python ide) and install required environment and files to run the code
+## Setup and Installation
+
+### Prerequisites
+* Python 3.8+
+* MySQL Server (with the [Sakila sample database](https://dev.mysql.com/doc/sakila/en/) installed)
+
+### Installation Steps
+
+1. **Database Setup:** 
+   Ensure MySQL is running and the Sakila database is loaded. Run the provided SQL script to set up necessary views/queries:
+   '''bash
+   mysql -u root -p < mysql_queries.sql
+2. **Clone Repository**
+   '''bash
+   git clone [https://github.com/yourusername/predictive-inventory-analytics.git](https://github.com/yourusername/predictive-inventory-analytics.git)
+cd predictive-inventory-analytics
+3.**Environment setup**
+   '''bash
+   python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install -r requirements.txt
+## Usage
+
+Once your database is running and your virtual environment is activated, you can execute the data pipeline with a single command:
+```bash
+python generate_dashboard.py
