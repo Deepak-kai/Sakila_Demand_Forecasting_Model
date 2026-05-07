@@ -31,10 +31,6 @@ This project bridges the gap between raw database storage and actionable busines
 * Python 3.8+
 * MySQL Server (with the [Sakila sample database](https://dev.mysql.com/doc/sakila/en/) installed)
 
-### Prerequisites
-* Python 3.8+
-* MySQL Server (with the [Sakila sample database](https://dev.mysql.com/doc/sakila/en/) installed)
-
 ### Installation Steps
 
 1. **Database Setup:** 
