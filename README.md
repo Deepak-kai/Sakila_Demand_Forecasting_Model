@@ -44,15 +44,18 @@ This project bridges the gap between raw database storage and actionable busines
    Ensure MySQL is running and the Sakila database is loaded. Run the provided SQL script to set up necessary views/queries:
    '''bash
    mysql -u root -p < mysql_queries.sql
-2. **Clone Repository**
+   
+3. **Clone Repository**
    '''bash
    git clone [https://github.com/deepak-kai/sakila_demand_forecasting_model.git](https://github.com/Deepak-kai/Sakila_Demand_Forecasting_Model.git)
 cd predictive-inventory-analytics
+
 3.**Environment setup**
    '''bash
    python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
+
 ## Usage
 
 Once your database is running and your virtual environment is activated, you can execute the data pipeline with a single command:
