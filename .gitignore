@@ -1,0 +1,10 @@
+# ignore python environments
+venv/
+__pycache__/
+
+# Ignore generated dashboards
+*.xlsx
+
+# Ignore large data files or models
+data/*.csv
+*.pkl
